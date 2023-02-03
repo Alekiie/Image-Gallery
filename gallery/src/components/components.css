@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    text-transform: uppercase;
+}
+.search form{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    
+}
+.search form input{
+    line-height: 25px;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.search form button{
+    background: blueviolet;
+    margin-top: 15px;
+    outline: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
