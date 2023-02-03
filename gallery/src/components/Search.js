@@ -18,7 +18,7 @@ function Search() {
         {
           headers: {
             Authorization:
-              "x0RPamKQVBvJF4lLpQY4KiU0GxaFzx6qYzdBen6yTe3osGruaKPgLak",
+              "x0RPamKQVBvJF4lLpQY4KiU0GxaFzx6qYzdBen6yTe3osGruaKPgLakn",
           },
         }
       );
@@ -43,9 +43,10 @@ function Search() {
           Search
         </button>
       </form>
-      <div>
+      <div className="fetched">
         {photos.map(photo=>(
             <img 
+                className="fetched-images"
                 key={photo.id}
                 src={photo.src.medium}
                 alt= {photo.photographer}
